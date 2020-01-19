@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h1>Crystal Collector</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+    
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <h2>Directions</h2>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+      
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+             You will be given a random number at the start of the game.
+
+             There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+
+             You win the game by matching your total score to random number. You lose the gameif your total score goes above the random number.
+
+             The value of each crystal is hidden from you until you click on it.
+
+             Each time when the game starts, the game will change the values of each crystal.
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2" id="crystal1"> <img src="https://i.imgur.com/dHGupRX.png" alt="orange" style="width: 150px;"></div>
+            <div class="col-2" id="crystal2"> <img src="https://i.imgur.com/a1BAZew.png" alt="purple" style="width: 150px;"></div>
+            <div class="col-2" id="crystal3"><img src="https://i.imgur.com/K7d7RIv.png" alt="blue" style="width: 150px;"></div>
+            <div class="col-2" id="crystal4"> <img src="https://i.imgur.com/0ihrUby.png" alt="pink" style="width: 150px;"></div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4" id="yourGoal"><h2>Your Goal:</h2></div>
+            <div class="col-4" id="yourScore"><h2>Your Score:</h2></div>
+            <div class="col-2"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"> </div>
+            <div class="col-3"><h4 id="wins">Wins:</h4><br><h4 id="losses">Losses:</h4></div>
+            <div class="col-3"></div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</body>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/game.js"></script>
+
+
+</html>
