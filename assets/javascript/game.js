@@ -20,15 +20,82 @@
 
 // variables
 var randomNumber = $("randomNumber").val();
+var crystalOne = $("randomNumber").val();
+var crystalTwo = $("randomNumber").val();
+var crystalThree = $("randomNumber").val();
+var crystalFour = $("randomNumber").val();
+var userScore = [];
+var totalScore = [];
+var wins = 0;
+var losses = 0;
+
 
 
 // generate the random goal number between 19-120
+
 function randomNumberGoal() {
     randomNumber = Math.floor(Math.random() * 50 + 1)
     console.log(randomNumberGoal);
+    $("#yourGoal").empty();
     $("#yourGoal").append("<h2>Your goal: " + randomNumber + "</h2>");
 }
 
-// runs randomNumber Goal function
+// run randomNumber Goal function
 randomNumberGoal ();
 
+
+// crystal values
+function crystalValues() {
+    crystalOne = Math.floor(Math.random() * 5 + 1);
+
+    crystalTwo = Math.floor(Math.random() * 10 + 1);
+
+    crystalThree = Math.floor(Math.random() * 15 + 1);
+
+    crystalFour = Math.floor(Math.random() 20 + 1);
+}
+
+// run crystal values function
+crystalValues();
+
+// reset - empty out functions
+function reset() {
+    $("#yourgoal").empty();
+    randomNumberGoal();
+    crystalValues ();
+    totalScore ();
+}
+
+// adding crystals
+function addScore() {
+
+    $("#yourScore").append("<h2>Your Score: " + randomNumber + "</h2>");
+
+}
+
+// linking crystal ids to functions and adding together
+
+// crystal 1
+$("#crystal1").click(function() {
+    
+}
+
+//crystal 2
+$("#crystal2").click(function() {
+    
+}
+
+//crystal 3
+$("#crystal3").click(function() {
+    
+}
+
+//crystal 4
+$("#crystal4").click(function() {
+    
+}
+
+//run add score
+addScore();
+
+//win or loss
