@@ -64,7 +64,6 @@ $("#crystal1").click(function() {
     // addScore();
     // ifWinner();
     // ifLose();
-
     userScore = crystalOne + userScore
     $("#userScore").html(userScore)
     checkScore()
