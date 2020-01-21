@@ -60,10 +60,6 @@ function reset() {
 
 // crystal 1
 $("#crystal1").click(function() {
-    // totalScore.push(crystalOne);
-    // addScore();
-    // ifWinner();
-    // ifLose();
     userScore = crystalOne + userScore
     $("#userScore").html(userScore)
     checkScore()
@@ -72,10 +68,6 @@ $("#crystal1").click(function() {
 
 //crystal 2
 $("#crystal2").click(function() {
-    // totalScore.push(crystalTwo);
-    // addScore();
-    // ifWinner();
-    // ifLose();
     userScore = crystalTwo + userScore
     $("#userScore").html(userScore)
     checkScore()
@@ -85,10 +77,6 @@ $("#crystal2").click(function() {
 
 //crystal 3
 $("#crystal3").click(function() {
-    // totalScore.push(crystalThree);
-    // addScore();
-    // ifWinner();
-    // ifLose();
     userScore = crystalThree + userScore
     $("#userScore").html(userScore)
     checkScore()
@@ -97,10 +85,6 @@ $("#crystal3").click(function() {
 
 //crystal 4
 $("#crystal4").click(function() {
-    // totalScore.push(crystalFour);
-    // addScore();
-    // ifWinner();
-    // ifLose();
     userScore = crystalFour + userScore
     $("#userScore").html(userScore)
     checkScore()
