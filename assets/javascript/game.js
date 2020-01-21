@@ -91,8 +91,6 @@ $("#crystal4").click(function() {
    console.log(userScore)
 });
 
-//run add score
-addScore();
 
 //win or loss
 
